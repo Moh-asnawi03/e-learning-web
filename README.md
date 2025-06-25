@@ -1,1 +1,180 @@
 # e-learning-web
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-Learning: Inovasi Pendidikan</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Open+Sans&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Open Sans', sans-serif;
+      margin: 0;
+      background-color: #f9f9f9;
+      color: #222;
+    }
+    header {
+      background-color: #faefe3;
+      padding: 40px 20px 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+    header p {
+      max-width: 800px;
+      margin: auto;
+      font-size: 16px;
+    }
+    .team-section {
+      background-color: #fff;
+      text-align: center;
+      padding: 20px;
+    }
+    .team-row {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+      margin-top: 20px;
+    }
+    .team-member {
+      width: 120px;
+    }
+    .team-member img {
+      width: 100%;
+      border-radius: 8px;
+    }
+    .section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .section-title {
+      font-family: 'Playfair Display', serif;
+      font-size: 28px;
+      margin-bottom: 20px;
+    }
+    .two-column {
+      display: flex;
+      gap: 40px;
+      flex-wrap: wrap;
+    }
+    .two-column > div {
+      flex: 1;
+      min-width: 300px;
+    }
+    blockquote {
+      margin: 30px 0;
+      font-style: italic;
+      border-left: 5px solid #ccc;
+      padding-left: 15px;
+      color: #444;
+    }
+    .benefit, .challenge, .tech {
+      margin-bottom: 20px;
+      padding: 15px;
+      background-color: #fff;
+      border-left: 4px solid #333;
+    }
+    .tech-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .tech-grid .tech {
+      flex: 1;
+      min-width: 250px;
+    }
+    .footer {
+      text-align: center;
+      padding: 20px;
+      background: #eaeaea;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>E-Learning: Inovasi Pendidikan di Era Digital</h1>
+    <p>Selami dunia E-Learning yang dinamis, sebuah revolusi dalam pendidikan yang membentuk cara kita belajar dan mengajar di era digital. Temukan konsep intinya, manfaat transformatif, teknologi mutakhir, dan lintasan masa depan.</p>
+  </header>
+
+  <section class="team-section">
+    <h2 class="section-title">Bersama Kelompok Kami</h2>
+    <div class="team-row">
+      <div class="team-member">
+        <img src="https://via.placeholder.com/120" alt="Herlina">
+        <p>Herlina_2381130281</p>
+      </div>
+      <div class="team-member">
+        <img src="https://via.placeholder.com/120" alt="Asnawi">
+        <p>Moh. Asnawi_2381130309</p>
+      </div>
+      <div class="team-member">
+        <img src="https://via.placeholder.com/120" alt="Yanti">
+        <p>Yanti Hidayati_2381130293</p>
+      </div>
+      <div class="team-member">
+        <img src="https://via.placeholder.com/120" alt="Nur Muhammad">
+        <p>Nur Muhammad_2381130282</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2 class="section-title">Pengertian dan Konsep E-Learning</h2>
+    <div class="two-column">
+      <div>
+        <p>E-Learning adalah pembelajaran elektronik yang menggunakan teknologi informasi dan komunikasi (TIK) untuk memfasilitasi proses belajar. Ini mencakup internet, intranet, CD-ROM, atau media digital lain untuk menyampaikan materi.</p>
+      </div>
+      <div>
+        <p>Konsep utamanya adalah fleksibilitas, aksesibilitas, dan personalisasi. Peserta didik dapat mengakses materi kapan saja dan di mana saja, sesuai dengan kecepatan belajar masing-masing individu.</p>
+      </div>
+    </div>
+    <blockquote>
+      "E-Learning mendefinisikan ulang batas-batas pendidikan, memungkinkan akses pengetahuan tanpa hambatan geografis dan waktu."
+    </blockquote>
+  </section>
+
+  <section class="section">
+    <h2 class="section-title">Manfaat Transformatif E-Learning</h2>
+    <div class="benefit"><strong>1. Fleksibilitas dan Aksesibilitas:</strong> Siapa saja bisa belajar kapan saja, dari mana saja.</div>
+    <div class="benefit"><strong>2. Efisiensi Biaya:</strong> Mengurangi biaya transportasi, akomodasi, dan cetak materi.</div>
+    <div class="benefit"><strong>3. Pembelajaran yang Dipersonalisasi:</strong> Belajar sesuai kecepatan dan gaya masing-masing.</div>
+    <div class="benefit"><strong>4. Peningkatan Keterampilan Digital:</strong> Meningkatkan literasi digital di era modern.</div>
+  </section>
+
+  <section class="section">
+    <h2 class="section-title">Tantangan dalam Penerapan E-Learning</h2>
+    <div class="challenge"><strong>Konektivitas Internet:</strong> Akses yang tidak merata dan tidak stabil.</div>
+    <div class="challenge"><strong>Kesenjangan Digital:</strong> Tidak semua peserta didik memiliki perangkat memadai.</div>
+    <div class="challenge"><strong>Motivasi dan Disiplin Diri:</strong> Pembelajaran mandiri menuntut kedisiplinan tinggi.</div>
+  </section>
+
+  <section class="section">
+    <h2 class="section-title">Teknologi Pendukung dan Tren Masa Depan E-Learning</h2>
+    <div class="tech-grid">
+      <div class="tech">
+        <strong>Platform LMS:</strong> Moodle, Canvas untuk pengelolaan konten dan interaksi.
+      </div>
+      <div class="tech">
+        <strong>Realitas Virtual & Augmented Reality:</strong> Pembelajaran imersif dan simulatif.
+      </div>
+      <div class="tech">
+        <strong>Kecerdasan Buatan (AI):</strong> Personalisasi, chatbot, dan prediksi kebutuhan belajar.
+      </div>
+      <div class="tech">
+        <strong>Pembelajaran Adaptif:</strong> Konten dan kecepatan disesuaikan dengan siswa.
+      </div>
+    </div>
+    <p>Masa depan E-Learning semakin terintegrasi dengan teknologi canggih, menawarkan pengalaman belajar yang adaptif dan menarik.</p>
+  </section>
+
+  <footer class="footer">
+    &copy; 2025 Kelompok E-Learning. Semua Hak Dilindungi.
+  </footer>
+</body>
+</html>
